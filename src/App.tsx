@@ -3,6 +3,8 @@ import * as path from "node:path";
 
 import React from "react";
 
+import { Counter } from "./components/counter";
+
 export default async function App() {
   const dir = path.join(process.cwd(), "assets", "content");
   const content = await readdir(dir, { encoding: "utf-8" });
@@ -21,6 +23,7 @@ export default async function App() {
           );
         })}
       </ul>
+      <Counter />
     </div>
   );
 }
