@@ -1,8 +1,10 @@
 {
+    "include": [".react-server/**/*.ts", "src/**/*.ts", "src/**/*.tsx"],
     "compilerOptions": {
+        "types": ["react/experimental", "react-dom/experimental", "node"],
         "target": "es2016",
         "module": "commonjs",
-        "jsx": "preserve",
+        "jsx": "react",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,

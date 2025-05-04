@@ -3,16 +3,18 @@
     "version": "1.0.0",
     "scripts": {
         "start": "react-server start",
-        "dev": "react-server ./src/App.tsx",
-        "build": "react-server build ./src/App.tsx"
+        "dev": "react-server",
+        "build": "react-server build"
     },
     "type": "module",
     "license": "MIT",
     "dependencies": {
         "@lazarv/react-server": "^0.0.0-experimental-3924ff5-20250501-64e8d9fb",
-        "remark": "^15.0.1"
+        "remark": "^15.0.1",
+        "vite": "^6.3.4"
     },
     "devDependencies": {
+        "@types/node": "^22.15.3",
         "typescript": "^5.8.3"
     },
     "volta": {
