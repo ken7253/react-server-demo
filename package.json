@@ -1,0 +1,21 @@
+{
+    "name": "react-server-demo",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "react-server start",
+        "dev": "react-server ./src/App.tsx",
+        "build": "react-server build ./src/App.tsx"
+    },
+    "type": "module",
+    "license": "MIT",
+    "dependencies": {
+        "@lazarv/react-server": "^0.0.0-experimental-3924ff5-20250501-64e8d9fb",
+        "remark": "^15.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    },
+    "volta": {
+        "node": "22.15.0"
+    }
+}
