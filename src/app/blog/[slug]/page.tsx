@@ -44,6 +44,7 @@ export default async function Page({ slug }: Prams) {
           <DynamicComponent slug={slug} />
         </Suspense>
       </article>
+      <Link to={`/blog/${slug}/edit`}>Edit</Link>
     </div>
   );
 }

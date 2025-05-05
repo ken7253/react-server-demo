@@ -1,5 +1,10 @@
 {
-    "include": [".react-server/**/*.ts", "src/**/*.ts", "src/**/*.tsx"],
+    "include": [
+        ".react-server/**/*.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "custom.d.ts"
+    ],
     "compilerOptions": {
         "types": ["react/experimental", "react-dom/experimental", "node"],
         "target": "es2016",

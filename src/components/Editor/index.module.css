@@ -1,0 +1,20 @@
+.text {
+  appearance: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  width: 100%;
+  height: fit-content;
+  field-sizing: content;
+}
+
+.save {
+  appearance: none;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 100vh;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
